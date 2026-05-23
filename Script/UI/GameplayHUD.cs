@@ -13,22 +13,32 @@ namespace MusicGame.UI
         [SerializeField] TextMeshProUGUI comboText;
         [SerializeField] TextMeshProUGUI judgmentText;
 
-        void Awake()
-        {
-            if (scoreManager == null)
-                scoreManager = FindObjectOfType<ScoreManager>();
-        }
+        void Awake() => EnsureScoreManager();
+
+        void Start() => EnsureScoreManager();
 
         void OnEnable()
         {
             MusicGameEvents.OnJudgment += OnJudgment;
-            MusicGameEvents.OnSongStarted += RefreshAll;
+            MusicGameEvents.OnSongStarted += OnSongStarted;
         }
 
         void OnDisable()
         {
             MusicGameEvents.OnJudgment -= OnJudgment;
-            MusicGameEvents.OnSongStarted -= RefreshAll;
+            MusicGameEvents.OnSongStarted -= OnSongStarted;
+        }
+
+        void OnSongStarted()
+        {
+            EnsureScoreManager();
+            RefreshAll();
+        }
+
+        void EnsureScoreManager()
+        {
+            if (scoreManager == null)
+                scoreManager = FindObjectOfType<ScoreManager>();
         }
 
         void OnJudgment(JudgmentResult result)
@@ -40,6 +50,7 @@ namespace MusicGame.UI
 
         void RefreshAll()
         {
+            EnsureScoreManager();
             if (scoreManager == null) return;
             if (scoreText != null)
                 scoreText.text = scoreManager.Score.ToString();

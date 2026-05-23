@@ -1,0 +1,1290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb022b406778ae940b05ae16af343b96, type: 3}
+  m_Name: Odoriko
+  m_EditorClassIdentifier: 
+  songId: odoriko
+  title: "\u8E0A\u308A\u5B50"
+  bpm: 157
+  offset: 0
+  approachTime: 2
+  laneCount: 4
+  music: {fileID: 8300000, guid: 66f8c30f54749ca408aa408d7508fd3a, type: 3}
+  notes:
+  - lane: 0
+    time: 0
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 0.7653061
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 1.5306122
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 2.2959185
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 3.0612245
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 3.8265305
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 4.5918365
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 5.3571424
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 6.1224484
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 6.8877544
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 7.6530604
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 8.418366
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 9.183673
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 9.948979
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 10.714286
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 11.479592
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 12.244898
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 12.244899
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 13.010205
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 13.775512
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 14.540818
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 15.306125
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 16.07143
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 16.836737
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 17.602043
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 18.367348
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 18.36735
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 19.132656
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 19.897963
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 20.663269
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 21.428572
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 21.428576
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 22.193882
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 22.959188
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 23.724495
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 24.489796
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 24.489801
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 25.255108
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 26.020414
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 26.78572
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 27.55102
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 27.551027
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 28.316334
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 29.08164
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 29.846947
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 30.612244
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 30.612253
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 31.37756
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 32.142864
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 32.90817
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 33.67347
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 33.673473
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 34.438778
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 35.204082
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 35.969387
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 36.73469
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 36.734695
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 37.499996
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 38.2653
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 39.030605
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 39.79591
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 39.795918
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 40.561214
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 41.32652
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 42.091824
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 42.85713
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 42.857143
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 43.622433
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 44.387737
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 45.15304
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 45.918346
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 45.918365
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 46.68365
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 47.448956
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 48.21426
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 48.979565
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 48.97959
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 49.74487
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 50.510174
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 51.27548
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 52.040783
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 52.040817
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 52.806087
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 53.571392
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 54.336697
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 55.102
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 55.10204
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 55.867306
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 56.63261
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 57.397915
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 58.16322
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 58.163265
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 58.928524
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 59.69383
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 60.459133
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 61.224438
+    type: 0
+    duration: 0
+  - lane: 1
+    time: 61.224487
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 61.989742
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 62.755047
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 63.52035
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 64.28566
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 65.050964
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 65.81627
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 66.58157
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 67.34688
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 68.11218
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 68.87749
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 69.64279
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 70.4081
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 71.1734
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 71.938705
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 72.70401
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 73.469315
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 74.23462
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 74.99992
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 75.76523
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 76.53053
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 77.29584
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 78.06114
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 78.82645
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 79.59175
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 80.357056
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 81.12236
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 81.887665
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 82.65297
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 83.418274
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 84.18358
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 84.94888
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 85.71419
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 86.47949
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 87.2448
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 88.0101
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 88.775406
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 89.54071
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 90.306015
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 91.07132
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 91.836624
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 92.60193
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 93.36723
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 94.13254
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 94.89784
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 95.66315
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 96.42845
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 97.193756
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 97.95906
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 98.724365
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 99.48967
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 100.254974
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 101.02028
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 101.78558
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 102.55089
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 103.31619
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 104.0815
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 104.8468
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 105.61211
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 106.37741
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 107.142715
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 107.90802
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 108.673325
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 109.43863
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 110.20393
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 110.96924
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 111.73454
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 112.49985
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 113.26515
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 114.03046
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 114.79576
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 115.561066
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 116.32637
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 117.091675
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 117.85698
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 118.622284
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 119.38759
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 120.15289
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 120.9182
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 121.6835
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 122.44881
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 123.21411
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 123.979416
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 124.74472
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 125.510025
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 126.27533
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 127.040634
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 127.80594
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 128.57124
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 129.33655
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 130.10185
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 130.86716
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 131.63246
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 132.39777
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 133.16307
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 133.92838
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 134.69368
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 135.45898
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 136.22429
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 136.9896
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 137.7549
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 138.5202
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 139.2855
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 140.05081
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 140.81612
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 141.58142
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 142.34673
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 143.11203
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 143.87733
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 144.64264
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 145.40794
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 146.17325
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 146.93855
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 147.70386
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 148.46916
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 149.23447
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 149.99977
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 150.76508
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 151.53038
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 152.29568
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 153.06099
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 153.8263
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 154.5916
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 155.3569
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 156.12221
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 156.88751
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 157.65282
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 158.41812
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 159.18343
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 159.94873
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 160.71404
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 161.47934
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 162.24464
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 163.00995
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 163.77525
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 164.54056
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 165.30586
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 166.07117
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 166.83647
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 167.60178
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 168.36708
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 169.13239
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 169.89769
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 170.663
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 171.4283
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 172.1936
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 172.95891
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 173.72421
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 174.48952
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 175.25482
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 176.02013
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 176.78543
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 177.55074
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 178.31604
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 179.08134
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 179.84665
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 180.61195
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 181.37726
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 182.14256
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 182.90787
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 183.67317
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 184.43848
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 185.20378
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 185.96909
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 186.73439
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 187.4997
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 188.265
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 189.0303
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 189.79561
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 190.56091
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 191.32622
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 192.09152
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 192.85683
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 193.62213
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 194.38744
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 195.15274
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 195.91805
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 196.68335
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 197.44865
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 198.21396
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 198.97926
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 199.74457
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 200.50987
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 201.27518
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 202.04048
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 202.80579
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 203.57109
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 204.3364
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 205.1017
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 205.867
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 206.63231
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 207.39761
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 208.16292
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 208.92822
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 209.69353
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 210.45883
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 211.22414
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 211.98944
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 212.75475
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 213.52005
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 214.28535
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 215.05066
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 215.81596
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 216.58127
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 217.34657
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 218.11188
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 218.87718
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 219.64249
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 220.40779
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 221.1731
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 221.9384
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 222.7037
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 223.46901
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 224.23431
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 224.99962
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 225.76492
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 226.53023
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 227.29553
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 228.06084
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 228.82614
+    type: 0
+    duration: 0
+  - lane: 0
+    time: 229.59145
+    type: 0
+    duration: 0

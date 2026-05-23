@@ -35,10 +35,7 @@ namespace MusicGame.Core
 
         void Start()
         {
-            if (chart != null)
-                LoadChart(chart);
-
-            if (autoStartOnPlay && chart != null)
+            if (autoStartOnPlay && chart != null && state == GameState.Ready)
                 StartSong();
         }
 

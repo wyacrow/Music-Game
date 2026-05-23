@@ -28,17 +28,30 @@ namespace MusicGame.Core
 
         void Awake()
         {
-            EnsureComponents();
-
             if (loadDemoChartFromResources && chart == null)
                 chart = ChartJsonLoader.LoadFromResource("Charts/demo");
+
+            if (chart == null)
+            {
+                Debug.LogError("[MusicGameplayRoot] 未指定 SongChart。请在 Inspector 绑定谱面（如 Odoriko.asset）。");
+                enabled = false;
+                return;
+            }
+
+            if (notePrefab == null || laneConfig == null || judgmentSettings == null)
+            {
+                Debug.LogError("[MusicGameplayRoot] 缺少 Note 预制体或 Config 引用。");
+                enabled = false;
+                return;
+            }
+
+            EnsureComponents();
 
             spawner.Configure(notePrefab, laneConfig, judgmentSettings, score);
             judgment.Configure(spawner, conductor, judgmentSettings, score);
             manager.Configure(conductor, spawner, judgment);
 
-            if (chart != null)
-                manager.LoadChart(chart);
+            manager.LoadChart(chart);
         }
 
         void Start()
